@@ -1,0 +1,103 @@
+
+
+.container-xxl{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+.product-container{
+    width: 285px;
+    margin: 3.5rem 1.5rem;
+    border-radius: 25px;
+    box-shadow: 10px 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+    border: 0.5px solid black;
+}
+
+#shoes-btn{
+    background-color: #EC3049;
+}
+
+
+#airpods-btn{
+    background-color: #83DBCB;
+}
+
+#iphone-btn{
+    background-color: #1E2640;
+}
+
+#laptop-btn{
+    background-color: #2C2F2E;
+}
+
+.product-container:hover{
+    box-shadow: 15px 20px 50px rgba(0,0,0,0.25),0 14px 15px rgba(0,0,0,0.22)
+}
+
+img{
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    height: 250px;
+}
+
+.product-container-body{
+    border-radius: 0 0 25px 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.product-buy-now-button{
+    background-color: #09080A;
+    color: white;
+    height: 50px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: .1s;
+    margin-top: 500px;
+}
+
+
+.btn{
+    padding: .8rem 0px;
+}
+
+a p{
+    margin: 0px 56px;
+}
+
+a:hover{
+    color: #ECEEF0;
+    font-size: 1.023rem;
+}
+
+
+.product-text{
+    font-size: 0.8rem;
+    margin: 0 25px;
+    text-align: center;
+    color: #999ca0;
+}
+
+.product-salary{
+    text-align: center;
+    font-size: x-large;
+    margin: 1rem;
+}
+
+.product-rate{
+    color: #ffa600;
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn b{
+    margin: 0 100px;
+}
